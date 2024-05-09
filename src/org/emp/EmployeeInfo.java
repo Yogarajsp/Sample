@@ -35,6 +35,12 @@ public class EmployeeInfo {
 
 	}
 	
+	private void empAge() {
+		
+		System.out.println("23");
+
+	}
+	
 	public static void main(String[] args) {
 		
 		EmployeeInfo e=new EmployeeInfo();
@@ -45,6 +51,7 @@ public class EmployeeInfo {
 		e.empId();
 		e.empName();
 		e.empPhone();
+		e.empAge();
 		
 	}
 
