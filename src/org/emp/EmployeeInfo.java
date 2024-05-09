@@ -35,6 +35,12 @@ public class EmployeeInfo {
 
 	}
 	
+	private void empNative() {
+		
+		System.out.println("Paramathi Velur");
+
+	}
+	
 	public static void main(String[] args) {
 		
 		EmployeeInfo e=new EmployeeInfo();
@@ -45,6 +51,8 @@ public class EmployeeInfo {
 		e.empId();
 		e.empName();
 		e.empPhone();
+		e.empNative();
+		
 		
 	}
 
