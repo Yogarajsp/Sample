@@ -41,6 +41,12 @@ public class EmployeeInfo {
 
 	}
 	
+	private void empSalary() {
+		
+		System.out.println("346285");
+
+	}
+	
 	public static void main(String[] args) {
 		
 		EmployeeInfo e=new EmployeeInfo();
@@ -52,6 +58,7 @@ public class EmployeeInfo {
 		e.empName();
 		e.empPhone();
 		e.empNative();
+		e.empSalary();
 		
 		
 	}
